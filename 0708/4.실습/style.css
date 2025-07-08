@@ -1,0 +1,28 @@
+.parent{
+
+
+  border: 100px solid yellow;
+
+  wdith : 500px; 
+  height: 500px;
+  display: flex;
+}
+.child1{
+
+ width: 100px;
+  height: 100px;
+  background: white;
+  display :flex;
+
+}
+.child2{
+
+  width:200px;
+  height:200px;
+  background: pink;
+  align-self: center;
+
+  
+  
+
+}
