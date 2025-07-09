@@ -1,0 +1,101 @@
+.parent{
+  border: 1px solid red;
+ 
+
+}
+
+.parent> div{
+
+  height: 100px;
+  width : 100px;
+  background: skyblue;
+  margin: 5px;
+
+
+}
+
+.child1{
+
+/* flex-grow: 0; */
+flex-shrink:3;
+
+
+
+}
+
+.child2{
+
+/* flex-grow: 2; */
+flex-shrink:2;
+
+
+
+}
+.child3{
+
+/* flex-grow: 1; */
+flex-shrink:1;
+
+
+
+}
+
+.parent2{
+
+
+  border: 1px solid red;
+
+   
+  height: 500px;
+
+
+  display: flex;
+}
+
+.parent2>div{
+  width :100px;
+  height:100px;
+  background : pink;
+  margin: 5px;
+
+}
+
+.child4{
+/* flex: 1; */
+/* order: 1; */
+align-self:center;
+
+}
+.child5{
+/* flex: 2; */
+/* order: 2; */
+
+
+}
+.child6{
+/* flex: 3; */
+/* order: 3; */
+
+}
+
+.parent3{
+  border: 1px solid red;
+  display: flex;
+}
+
+.parent3>div{
+  width: 100px;
+  height: 100px;
+  background: yellowgreen;
+
+}
+
+.child7{
+
+  /* margin-right: auto; */
+}
+.child8{
+
+  /* margin-right: auto; */
+
+}
